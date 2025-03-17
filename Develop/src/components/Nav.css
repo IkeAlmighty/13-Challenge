@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+ul li a {
+    cursor: pointer;
+    color: white;
+}
