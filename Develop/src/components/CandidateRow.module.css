@@ -1,0 +1,21 @@
+tr {
+  text-align: center;
+}
+
+td {
+  padding: 1.5rem auto;
+  text-align: left;
+}
+
+td:has(button) {
+  text-align: center;
+}
+
+tr img {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0.5rem auto;
+  vertical-align: center;
+  border-radius: 10px;
+}
