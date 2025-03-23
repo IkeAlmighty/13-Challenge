@@ -2,7 +2,7 @@ tr {
   text-align: center;
 }
 
-td {
+tr td {
   padding: 1.5rem auto;
   text-align: left;
 }

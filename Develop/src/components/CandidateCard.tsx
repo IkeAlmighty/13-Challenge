@@ -1,5 +1,5 @@
 import RoundButton from "./RoundButton";
-import "./CandidateCard.module.css";
+import styles from "./CandidateCard.module.css";
 
 export default function CandidateCard(props: any) {
   const { candidate, onPlus, onMinus } = props;
@@ -7,14 +7,14 @@ export default function CandidateCard(props: any) {
   return (
     <div>
       <div>
-        <img src={avatar_url} alt="github avatar" />
+        <img src={avatar_url} alt="github avatar" style={styles} />
         <h3>
           {name} ({login})
         </h3>
         <div>Location: {location || "not public"}</div>
         <div>Email: {email || "not public"}</div>
         <div>Company: {company || "not public"}</div>
-        <p>{bio}</p>
+        <p style={styles}>{bio}</p>
       </div>
 
       {/* 

@@ -1,11 +1,11 @@
-import "./CandidateRow.module.css";
+import styles from "./CandidateRow.module.css";
 import RoundButton from "./RoundButton";
 
 export default function CandidateRow(props: any) {
   const { candidate, onMinus } = props;
   return (
     <>
-      <tr>
+      <tr style={styles}>
         <td>
           <img
             src={candidate.avatar_url}
